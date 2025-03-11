@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { InsightData, UserData } from "@/types";
-import { formatCurrency } from "@/utils/dataUtils";
+import { formatCurrency } from "@/utils/countryUtils";
 import { TrendingUp, TrendingDown, AlertCircle, Check, Info } from "lucide-react";
 
 interface InsightsPanelProps {

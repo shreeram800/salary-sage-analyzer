@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -17,7 +16,7 @@ import {
   Area,
 } from "recharts";
 import { ChartData, UserData } from "@/types";
-import { formatCurrency } from "@/utils/dataUtils";
+import { formatCurrency } from "@/utils/countryUtils";
 
 interface AnalysisChartProps {
   chartData: ChartData[];
